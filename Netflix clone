@@ -3,34 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Clone</title>
+    <title>Netflix clone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    *{
-        padding: 0;
-        margin: 0;
-    }
-    .picture{
-        filter: brightness(50%);
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
-    
-    }
-</style>
 <body>
-    <header>
-        <main>
-            <div class="picture">
-                <img src="Netflix-clone\netflix.jpg" height="670px" width="1470px">
-
-            </div>
-            <nav>
-                <div>
-                    <h1>NETFLIX</h1>
-                </div>
-                <button>Sign In</button>
-            </nav> 
-        </main>
-    </header>
-
+    <div class="main">
+        <nav>Unlimited movies, TV shows, and more</nav>
+        <div class="box"></div>
+</div>
 </body>
 </html>
