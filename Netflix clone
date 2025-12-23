@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix clone</title>
+    <title>Netflix Clone</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="main">
-        <nav>Unlimited movies, TV shows, and more</nav>
-        <div class="box"></div>
-</div>
+        <div class="logo">
+            <img src="assets\pictures\logo.svg">
+        </div>
+        <div class="overlay"></div>
+        <nav>
+            <h1>Unlimited movies, TV </h1>
+            <h1>shows, and more</h1>
+        </nav>
+    </div>
 </body>
 </html>
