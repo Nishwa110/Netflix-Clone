@@ -8,6 +8,12 @@
     position: relative;
 
 }
+
+nav {
+    position: relative;
+    z-index: 2; /* This puts the entire nav above the overlay */
+}
+
 main .box{
     top:0;
     opacity:0.44;
@@ -15,10 +21,12 @@ main .box{
  
 }
 
-nav h1:first-child {
-    color: red;
-    font-size: 50px;
+nav .Netflix{
+    color: rgb(255, 14, 14);
+    font-size: 25px;
     padding: 10px 0 0 50px;
+    display: flex;
+  
 }
 
 .main .overlay{
@@ -32,12 +40,18 @@ nav h1:first-child {
 
 }
 
-nav {
+nav .line {
     color: white;
     position: relative; 
     font-weight: bold;
     font-size: larger;
     z-index: 2;
     display: flex;
-    justify-self: right;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .line h1:nth-child(2) {
+    margin-left: 2px;  
 }
