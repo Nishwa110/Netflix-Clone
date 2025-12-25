@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="overlay"></div>
+        <nav>
+            <div class="Netflix">
+                <h1>NETFLIX</h1>
+            </div>
+            <div class="line">
+                <h1>Unlimited movies, TV </h1>
+                <h1>shows, and more</h1>
+                <h5>Starts at Rs 250. Cancel anytime.</h5>
+            </div>
+            <div class="LINE">
+                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
