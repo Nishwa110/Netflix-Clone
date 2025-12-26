@@ -76,7 +76,7 @@ nav .INPUT{
 nav .INPUT input{
     height: 63px;
     width: 370px;
-    border: 2px solid rgb(237, 234, 234);
+    border: 2px solid rgb(95, 92, 92);
     background-color: rgba(63, 63, 63, 0.5);
     padding-left: 15px;
     padding-right: 15px;  
@@ -84,5 +84,24 @@ nav .INPUT input{
 }
 
 nav .INPUT input::placeholder {
-    color: rgba(255, 255, 255, 0.7);  /* Placeholder color */
+    color: rgba(255, 255, 255, 0.7); 
 }
+
+nav .BUTTON{
+    position: relative; /* Makes this the reference point */
+}
+
+nav .BUTTON button{
+    color: white;
+    background-color: red;
+    height: 67px;
+    width: 218px;
+    position: absolute;
+    top: -65px;
+    left: 818px; 
+}
+
+
+
+
+    
