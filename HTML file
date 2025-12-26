@@ -24,6 +24,9 @@
             <div class="INPUT">
                 <input type="text" placeholder="Email address">
             </div>
+            <div class="BUTTON">
+                <button>Get Started</button>
+            </div>
         </nav>
     </div>
 </body>
