@@ -93,15 +93,15 @@ nav .BUTTON{
 
 nav .BUTTON button{
     color: white;
-    background-color: red;
+    background-color: rgb(238, 15, 15);
     height: 67px;
     width: 218px;
     position: absolute;
     top: -65px;
     left: 818px; 
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 20px;
+    padding-right: 70px;
 }
 
-
-
-
-    
