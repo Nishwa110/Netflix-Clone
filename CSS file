@@ -59,13 +59,13 @@ nav .line h5 {
     font-weight: normal
 }
 
-nav .LINE h3{
+nav .LINE h5{
     
     padding-top: 30px;
     font-weight: normal;
     color: white;
     padding-left: 400px;
-    font-size: 140%;
+    font-size: 125%;
 }
 
 nav .INPUT{
@@ -75,7 +75,7 @@ nav .INPUT{
 
 nav .INPUT input{
     height: 63px;
-    width: 370px;
+    width: 325px;
     border: 2px solid rgb(95, 92, 92);
     background-color: rgba(63, 63, 63, 0.5);
     padding-left: 15px;
@@ -88,20 +88,27 @@ nav .INPUT input::placeholder {
 }
 
 nav .BUTTON{
-    position: relative; /* Makes this the reference point */
+    position: relative; 
 }
 
 nav .BUTTON button{
     color: white;
     background-color: rgb(238, 15, 15);
     height: 67px;
-    width: 218px;
+    width: 200px;
     position: absolute;
     top: -65px;
-    left: 818px; 
+    left: 770px; 
     cursor: pointer;
     border-radius: 7px;
     font-size: 20px;
     padding-right: 70px;
+    padding-left: 30px;
+    white-space: nowrap;
 }
+
+   button::after{
+       content: ">";
+       font-size: 24px; /* Make it larger */
+   }
 
