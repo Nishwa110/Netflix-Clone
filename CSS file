@@ -113,18 +113,17 @@ button::after {
   font-size: 24px; /* Make it larger */
 }
 
-nav .SignInButton{
-    color: white;
+nav .SignInButton button{
     background-color: rgb(238, 15, 15);
-    height: 67px;
-    width: 193px;
+    color: white;
+    height: 50px;
+    width: 130px;
     position: absolute;
     top: 65px;
     left: 780px;
     cursor: pointer;
     border-radius: 4px;
     font-size: 20px;
-    padding-right: 70px;
-    padding-left: 30px;
+    white-space: nowrap;
   
   }
