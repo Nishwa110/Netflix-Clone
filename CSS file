@@ -1,12 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Add this too! */
+  box-sizing: border-box;
 }
 
 body {
   background-color: black;
 }
+
 .main {
   background-image: url(assets/pictures/background.jpg);
   height: 100vh;
@@ -15,7 +16,7 @@ body {
 
 nav {
   position: relative;
-  z-index: 2; /* This puts the entire nav above the overlay */
+  z-index: 2;
 }
 
 main .box {
@@ -27,8 +28,11 @@ main .box {
 nav .Netflix {
   color: rgb(255, 14, 14);
   font-size: 25px;
-  padding: 10px 0 0 50px;
+  padding: 10px 50px 0 50px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .main .overlay {
@@ -82,6 +86,7 @@ nav .INPUT input {
   padding-right: 15px;
   font-size: 19px;
   border-radius: 4px;
+  color: white;
 }
 
 nav .INPUT input::placeholder {
@@ -106,24 +111,30 @@ nav .BUTTON button {
   padding-right: 70px;
   padding-left: 30px;
   white-space: nowrap;
+  border: none;
 }
 
-button::after {
+nav .BUTTON button::after {
   content: ">";
-  font-size: 24px; /* Make it larger */
+  font-size: 24px;
 }
 
 nav .SignInButton button{
     background-color: rgb(238, 15, 15);
     color: white;
-    height: 50px;
-    width: 130px;
-    position: absolute;
-    top: 65px;
-    left: 780px;
+    height: 40px;
+    width: 100px;
     cursor: pointer;
-    border-radius: 4px;
-    font-size: 20px;
+    border-radius: 8px;
+    font-size: 16px;
     white-space: nowrap;
-  
-  }
+    border: none;
+}
+
+nav .SignInButton button:hover {
+    background-color: rgb(200, 10, 10);
+}
+
+nav .BUTTON button:hover {
+    background-color: rgb(200, 10, 10);
+}
