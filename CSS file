@@ -151,3 +151,19 @@ nav .SignInButton button:hover {
 nav .BUTTON button:hover {
   background-color: rgb(200, 10, 10);
 }
+
+nav .Trending{
+  color: White;
+  font-size: 30px;
+  display: flex;
+  padding-top:  150px;
+  padding-left: 85px;
+}
+nav .HP1{
+  display: flex;
+  padding-left: 110px;
+  padding-top: 20px;
+  color: white;
+  height: 250px;
+  width: auto;
+}
