@@ -31,6 +31,10 @@
             <div class="BUTTON">
                 <button>Get Started</button>
             </div>
+            <div class="Trending">Trending Now</div>
+            <div class="HP1">
+            <img src="assets/pictures/image.png" alt="Harry Potter and the philosopher's stone">
+            </div>
         </nav>
         
         <!-- Curved gradient line -->
@@ -47,5 +51,6 @@
     <path d="M0,20 Q720,3 1440,20" stroke="url(#gradient)" stroke-width="4" fill="none"/>
 </svg>
     </div>
+    
 </body>
 </html>
