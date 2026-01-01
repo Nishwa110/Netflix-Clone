@@ -78,9 +78,9 @@
         <!-- BLUE AREA BELOW (Netflix look) -->
         <path
           d="
-        M0,40
-        Q720,15 1440,40
-        L1440,120
+        M0,150
+        Q720,20 1440,1
+        L1440,300
         L0,120
         Z"
           fill="url(#blueFill)"
@@ -90,7 +90,7 @@
         <path
           d="M0,40 Q720,15 1440,40"
           stroke="url(#gradient)"
-          stroke-width="3"
+          stroke-width="10"
           fill="none"
         />
       </svg>
