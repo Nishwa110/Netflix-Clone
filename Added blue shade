@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="overlay"></div>
+
+      <nav>
+        <div class="Netflix">
+          <h1>NETFLIX</h1>
+          <div class="SignInButton">
+            <button>Sign In</button>
+          </div>
+        </div>
+
+        <div class="line">
+          <h1>Unlimited movies, TV</h1>
+          <h1>shows, and more</h1>
+          <h5>Starts at Rs 250. Cancel anytime.</h5>
+        </div>
+
+        <div class="LINE">
+          <h5>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h5>
+        </div>
+
+        <div class="INPUT">
+          <input type="text" placeholder="Email address" />
+        </div>
+
+        <div class="BUTTON">
+          <button>Get Started</button>
+        </div>
+
+        <div class="Trending">Trending Now</div>
+
+        <div class="HP1">
+          <img
+            src="assets/pictures/image.png"
+            alt="Harry Potter and the philosopher's stone"
+          />
+        </div>
+      </nav>
+
+      <!-- Netflix-style curved divider -->
+      <!-- Netflix-style curved divider (DO NOT MOVE OTHER CODE) -->
+      <svg
+        class="curved-line"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 120"
+        preserveAspectRatio="none"
+      >
+        <defs>
+          <!-- Red gradient -->
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="rgba(229,9,20,0)" />
+            <stop offset="25%" stop-color="rgba(229,9,20,0.8)" />
+            <stop offset="50%" stop-color="rgba(229,9,20,1)" />
+            <stop offset="75%" stop-color="rgba(229,9,20,0.8)" />
+            <stop offset="100%" stop-color="rgba(229,9,20,0)" />
+          </linearGradient>
+
+          <!-- Blue filled gradient -->
+          <linearGradient id="blueFill" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="rgba(25,45,120,0.9)" />
+            <stop offset="60%" stop-color="rgba(5,10,40,0.85)" />
+            <stop offset="100%" stop-color="rgba(0,0,0,1)" />
+          </linearGradient>
+        </defs>
+
+        <!-- BLUE AREA BELOW (Netflix look) -->
+        <path
+          d="
+        M0,40
+        Q720,15 1440,40
+        L1440,120
+        L0,120
+        Z"
+          fill="url(#blueFill)"
+        />
+
+        <!-- RED CURVED LINE -->
+        <path
+          d="M0,40 Q720,15 1440,40"
+          stroke="url(#gradient)"
+          stroke-width="3"
+          fill="none"
+        />
+      </svg>
+    </div>
+  </body>
+</html>
