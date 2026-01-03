@@ -50,7 +50,6 @@
       </nav>
 
       <!-- Netflix-style curved divider -->
-      <!-- Netflix-style curved divider (DO NOT MOVE OTHER CODE) -->
       <svg
         class="curved-line"
         xmlns="http://www.w3.org/2000/svg"
@@ -58,39 +57,34 @@
         preserveAspectRatio="none"
       >
         <defs>
-          <!-- Red gradient -->
+          <!-- Red to transparent gradient -->
           <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" stop-color="rgba(229,9,20,0)" />
-            <stop offset="25%" stop-color="rgba(229,9,20,0.8)" />
+            <stop offset="20%" stop-color="rgba(229,9,20,0.6)" />
             <stop offset="50%" stop-color="rgba(229,9,20,1)" />
-            <stop offset="75%" stop-color="rgba(229,9,20,0.8)" />
+            <stop offset="80%" stop-color="rgba(229,9,20,0.6)" />
             <stop offset="100%" stop-color="rgba(229,9,20,0)" />
           </linearGradient>
 
-          <!-- Blue filled gradient -->
+          <!-- Dark blue gradient for the fill -->
           <linearGradient id="blueFill" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="rgba(25,45,120,0.9)" />
-            <stop offset="60%" stop-color="rgba(5,10,40,0.85)" />
+            <stop offset="0%" stop-color="rgba(20,30,80,0.95)" />
+            <stop offset="50%" stop-color="rgba(10,15,35,0.9)" />
             <stop offset="100%" stop-color="rgba(0,0,0,1)" />
           </linearGradient>
         </defs>
 
-        <!-- BLUE AREA BELOW (Netflix look) -->
+        <!-- Blue filled area below the curve -->
         <path
-          d="
-        M0,150
-        Q720,20 1440,1
-        L1440,300
-        L0,120
-        Z"
+          d="M0,120 L0,45 Q360,25 720,35 T1440,45 L1440,120 Z"
           fill="url(#blueFill)"
         />
 
-        <!-- RED CURVED LINE -->
+        <!-- Red curved line -->
         <path
-          d="M0,40 Q720,15 1440,40"
+          d="M0,45 Q360,25 720,35 T1440,45"
           stroke="url(#gradient)"
-          stroke-width="10"
+          stroke-width="3"
           fill="none"
         />
       </svg>
