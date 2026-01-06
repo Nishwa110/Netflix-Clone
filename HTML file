@@ -35,6 +35,8 @@
           <input type="text" placeholder="Email address" />
         </div>
 
+        <div class="No1">1</div>
+
         <div class="BUTTON">
           <button>Get Started</button>
         </div>
@@ -89,5 +91,6 @@
         />
       </svg>
     </div>
+    
   </body>
 </html>
