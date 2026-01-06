@@ -156,7 +156,7 @@ nav .Trending {
   color: white;
   font-size: 30px;
   display: flex;
-  padding-top: 150px;
+  padding-top: 80px;
   padding-left: 85px;
 }
 
@@ -167,4 +167,11 @@ nav .HP1 {
   color: white;
   height: 250px;
   width: auto;
+}
+
+nav .No1{
+  color: black;
+  border-color: white;
+  size: 20px;
+  font-weight: bolder;
 }
