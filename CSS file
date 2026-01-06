@@ -164,9 +164,13 @@ nav .HP1 {
   display: flex;
   padding-left: 110px;
   padding-top: 20px;
-  color: white;
   height: 250px;
   width: auto;
+
+}
+
+nav .HP1 img{
+   border-radius: 7px;
 }
 
 nav .No1{
