@@ -9,7 +9,6 @@
   <body>
     <div class="main">
       <div class="overlay"></div>
-
       <nav>
         <div class="Netflix">
           <h1>NETFLIX</h1>
@@ -42,13 +41,13 @@
         </div>
 
         <div class="Trending">Trending Now</div>
-
         <div class="HP1">
           <img
             src="assets/pictures/image.png"
             alt="Harry Potter and the philosopher's stone"
           />
         </div>
+
       </nav>
 
       <!-- Netflix-style curved divider -->
