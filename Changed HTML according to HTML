@@ -152,13 +152,6 @@ nav .BUTTON button:hover {
   background-color: rgb(200, 10, 10);
 }
 
-nav .Trending {
-  color: white;
-  font-size: 30px;
-  display: flex;
-  padding-top: 80px;
-  padding-left: 85px;
-}
 
 nav .HP1 {
   display: flex;
@@ -168,6 +161,8 @@ nav .HP1 {
   width: auto;
 
 }
+
+
 
 nav .HP1 img{
    border-radius: 7px;
