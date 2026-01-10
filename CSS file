@@ -113,10 +113,10 @@ nav .BUTTON {
 nav .BUTTON button {
   color: white;
   background-color: rgb(238, 15, 15);
-  height: 67px;
+  height: 63px;
   width: 193px;
   position: absolute;
-  top: -65px;
+  top: -22px;
   left: 780px;
   cursor: pointer;
   border-radius: 4px;
@@ -132,11 +132,12 @@ nav .BUTTON button::after {
   font-size: 24px;
 }
 
-nav .SignInButton button {
+main nav .SignInButton button {
   background-color: rgb(238, 15, 15);
   color: white;
   height: 40px;
   width: 100px;
+  top: -82px;
   cursor: pointer;
   border-radius: 8px;
   font-size: 16px;
@@ -162,15 +163,21 @@ nav .HP1 {
 
 }
 
-
-
 nav .HP1 img{
    border-radius: 7px;
 }
 
-nav .No1{
-  color: black;
-  border-color: white;
-  size: 20px;
+nav .No1 {
+  color: white;
+  font-size: 60px; 
   font-weight: bolder;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 110px; 
+
+  margin-top: 20px;
 }
