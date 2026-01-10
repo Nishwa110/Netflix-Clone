@@ -7,89 +7,91 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main">
-      <div class="overlay"></div>
-      <nav>
-        <div class="Netflix">
-          <h1>NETFLIX</h1>
-          <div class="SignInButton">
-            <button>Sign In</button>
+    <main>
+      <div class="main">
+        <div class="overlay"></div>
+        <nav>
+          <div class="Netflix">
+            <h1>NETFLIX</h1>
+            <div class="SignInButton">
+              <button>Sign In</button>
+            </div>
           </div>
-        </div>
-
-        <div class="line">
-          <h1>Unlimited movies, TV</h1>
-          <h1>shows, and more</h1>
-          <h5>Starts at Rs 250. Cancel anytime.</h5>
-        </div>
-
-        <div class="LINE">
-          <h5>
-            Ready to watch? Enter your email to create or restart your
-            membership.
-          </h5>
-        </div>
-
-        <div class="INPUT">
-          <input type="text" placeholder="Email address" />
-        </div>
-
-        <div class="No1">1</div>
-
-        <div class="BUTTON">
-          <button>Get Started</button>
-        </div>
-
-        <div class="Trending">Trending Now</div>
-        <div class="HP1">
-          <img
-            src="assets/pictures/image.png"
-            alt="Harry Potter and the philosopher's stone"
+  
+          <div class="line">
+            <h1>Unlimited movies, TV</h1>
+            <h1>shows, and more</h1>
+            <h5>Starts at Rs 250. Cancel anytime.</h5>
+          </div>
+  
+          <div class="LINE">
+            <h5>
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </h5>
+          </div>
+          
+          <div class="INPUT">
+            <input type="text" placeholder="Email address" />
+          </div>
+  
+          <div class="No1">1</div>
+  
+          <div class="BUTTON">
+            <button>Get Started</button>
+          </div>
+  
+          <div class="Trending">Trending Now</div>
+          <div class="HP1">
+            <img
+              src="assets/pictures/image.png"
+              alt="Harry Potter and the philosopher's stone"
+            />
+          </div>
+  
+        </nav>
+  
+        <!-- Netflix-style curved divider -->
+        <svg
+          class="curved-line"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 120"
+          preserveAspectRatio="none"
+        >
+          <defs>
+            <!-- Red to transparent gradient -->
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="rgba(229,9,20,0)" />
+              <stop offset="20%" stop-color="rgba(229,9,20,0.6)" />
+              <stop offset="50%" stop-color="rgba(229,9,20,1)" />
+              <stop offset="80%" stop-color="rgba(229,9,20,0.6)" />
+              <stop offset="100%" stop-color="rgba(229,9,20,0)" />
+            </linearGradient>
+  
+            <!-- Dark blue gradient for the fill -->
+            <linearGradient id="blueFill" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="rgba(20,30,80,0.95)" />
+              <stop offset="50%" stop-color="rgba(10,15,35,0.9)" />
+              <stop offset="100%" stop-color="rgba(0,0,0,1)" />
+            </linearGradient>
+          </defs>
+  
+          <!-- Blue filled area below the curve -->
+          <path
+            d="M0,120 L0,45 Q360,25 720,35 T1440,45 L1440,120 Z"
+            fill="url(#blueFill)"
           />
-        </div>
-
-      </nav>
-
-      <!-- Netflix-style curved divider -->
-      <svg
-        class="curved-line"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 120"
-        preserveAspectRatio="none"
-      >
-        <defs>
-          <!-- Red to transparent gradient -->
-          <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="rgba(229,9,20,0)" />
-            <stop offset="20%" stop-color="rgba(229,9,20,0.6)" />
-            <stop offset="50%" stop-color="rgba(229,9,20,1)" />
-            <stop offset="80%" stop-color="rgba(229,9,20,0.6)" />
-            <stop offset="100%" stop-color="rgba(229,9,20,0)" />
-          </linearGradient>
-
-          <!-- Dark blue gradient for the fill -->
-          <linearGradient id="blueFill" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="rgba(20,30,80,0.95)" />
-            <stop offset="50%" stop-color="rgba(10,15,35,0.9)" />
-            <stop offset="100%" stop-color="rgba(0,0,0,1)" />
-          </linearGradient>
-        </defs>
-
-        <!-- Blue filled area below the curve -->
-        <path
-          d="M0,120 L0,45 Q360,25 720,35 T1440,45 L1440,120 Z"
-          fill="url(#blueFill)"
-        />
-
-        <!-- Red curved line -->
-        <path
-          d="M0,45 Q360,25 720,35 T1440,45"
-          stroke="url(#gradient)"
-          stroke-width="3"
-          fill="none"
-        />
-      </svg>
-    </div>
+  
+          <!-- Red curved line -->
+          <path
+            d="M0,45 Q360,25 720,35 T1440,45"
+            stroke="url(#gradient)"
+            stroke-width="3"
+            fill="none"
+          />
+        </svg>
+      </div>
+    </main>
     
   </body>
 </html>
